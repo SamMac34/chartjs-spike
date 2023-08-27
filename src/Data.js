@@ -1,4 +1,4 @@
-export const Data = [
+const Data = [
     {
       id: 1,
       year: 2016,
@@ -30,3 +30,5 @@ export const Data = [
       userLost: 234
     }
   ];
+
+  export default Data;
