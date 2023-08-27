@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  margin: 25%;
+  margin: 5% 25%;
 }
 
 .App-header {
@@ -14,15 +14,11 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  background-color: blueviolet;
+  color: white;
+  border: 2px solid black;
+  font-size: 20px;
+  margin: 0px auto;
+  text-align: center;
 }

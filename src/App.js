@@ -3,8 +3,10 @@ import Chart from 'chart.js/auto';
 import { CategoryScale } from 'chart.js';
 import { useState } from 'react';
 import Data from './Data';
+import Header from './components/Header';
 import PieChart from './components/PieChart';
-// import './styles.css';
+import { BarChart } from './components/BarChart';
+import LineChart from './components/LineChart';
 
 Chart.register(CategoryScale);
 
@@ -29,11 +31,15 @@ function App() {
   });
  
 
-
   return (
+    <>
+      <Header />
     <div className="App">
+      <LineChart chartData={chartData} />
+      <BarChart chartData={chartData} />
       <PieChart chartData={chartData} />
     </div>
+    </>
   );
 
 }
