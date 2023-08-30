@@ -4,7 +4,7 @@ function Header() {
 
     return (
         <div className="header">
-        <h1>Chartjs Spike</h1>
+        <h1>Chart.js Spike</h1>
         </div>
     )
 };
